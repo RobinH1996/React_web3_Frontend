@@ -1,0 +1,213 @@
+.mail_box_title_each{
+    display: flex;
+    border-bottom: 2px solid #2DCCD3;
+    cursor: pointer;
+}
+.unselected_mail_box_title_each{
+    display: flex;
+    cursor: pointer;
+}
+.mailBox_title{
+    position: relative;
+    margin-left: 10px;
+    top: 8px;
+    color: #002554;
+    font-size: 16px;
+    font-weight: 600;
+}
+.unselected_mailBox_title{
+    position: relative;
+    margin-left: 10px;
+    top: 8px;
+    color: #BAC4CE;
+    font-size: 16px;
+    font-weight: 600;
+}
+.noti_badge{
+    padding: 2px 8px;
+    background-color: #2DCCD3;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: fit-content;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    top: 6px;
+}
+.unselected_noti_badge{
+    padding: 2px 8px;
+    background-color: #e9ecef;
+    color: #BAC4CE;
+    font-size: 14px;
+    height: fit-content;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    top: 6px;
+}
+.message_search{
+    margin-top: 0px;
+}
+.mobile_version_mailBox{
+    display: none;
+}
+@media all and (max-width: 664px) {
+    .mobile_version_mailBox{
+        display: block;
+    }
+    .web_version_mailBox{
+        display: none;
+    }
+}
+.mobile_mailBox_title_group{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile_mailBox_title{
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-top: 10px;
+}
+.mobile_inbox{
+    color: #08253E;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 3px solid #95E5E9;
+    padding-bottom: 20px;
+}
+.mobile_index_content{
+    margin-top: 15px;
+    border-bottom: 2px solid #E2E2E2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topboder{
+    border-top: 2px solid #E2E2E2;
+}
+.hide_mailbox{
+    display: none;
+}
+.show_new_message{
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 50px 50px;
+    margin-top: 50px;
+    min-height: 500px;
+}
+.close {
+    font-size: 45px;
+    font-weight: 600;
+    cursor: pointer;
+    float: right;
+}
+.new_mail_div{
+    margin-top: 20px;
+}
+.mail_to{
+    font-size: 16px;
+    position: relative;
+    top: 7px;
+}
+.mail_text{
+    background: #F8F9FB;
+    border: 1px solid #2DCCD3;
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 100%;
+    padding: 25px;
+    outline: 0px;
+    font-size: 16px;
+}
+.file_send{
+    display: flex;
+    margin-left: auto;
+}
+.symbol_btn{
+    display: flex;
+}
+.attached_file{
+    display: none;
+}
+.attached_file_name{
+    background: linear-gradient(92.32deg, #2DCCD3 -44.63%, #1494BC 138.12%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    color: #fff;
+}
+.file_name_tick{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    margin-left: 15px;
+}
+@media all and (max-width: 1075px) {
+    .mail_to{
+        font-size: 12px;
+    }
+}
+.mail_send_btn{
+    background: #2DCCD3;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 10px;
+    margin-top: 78px;
+}
+.mobile_mail_send_btn{
+    background: #2DCCD3;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.file_upload_btn{
+    background: #2DCCD3;
+    border-radius: 6px;
+    width: 60px;
+    border: 0px;
+}
+@media all and (max-width: 1343px) {
+    .small_reply_btn{
+        display: block;
+    }
+    .big_reply_btn{
+        display: none;
+    }
+}
+.came_message{
+    padding: 10px 20px;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    min-height: 100px;
+    font-size: 16px;
+}
+@media all and (max-width: 577px) {
+    .show_new_message{
+        padding: 20px 10px;
+    }
+    .small_reply_btn{
+        display: flex;
+        margin-top: 25px;
+    }
+    .mobile_mail_to{
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+}

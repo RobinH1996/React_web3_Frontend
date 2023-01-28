@@ -1,0 +1,268 @@
+/* ----header--------- */
+.reduceMark{
+    font-size: 35px;
+    margin-top: 2px;
+    margin-left: -37px;
+    color: #fff;
+    margin-right: 17px;
+}
+.badge{
+    font-size: 11px;
+    padding: 4px 4px;
+    background-image: url(../../assets/images/badge.png);
+    background-position-y: 20px;
+    background-size: cover;
+    position: relative;
+    left: -7px;
+    top: -5px;
+}
+@media all and (max-width: 1251px) {
+    .navList {
+        display: none;
+    }
+    .tablet_btn2{
+        display: block !important;
+    }
+    .tablet1{
+        display: none !important;
+    }
+}
+@media all and (max-width: 1053px) {
+    .smallHide {
+        display: none;
+    }
+    .tablet1{
+        display: block !important;
+    }
+}
+@media all and (min-width: 1252px) {
+    .menuBG {
+        display: none;
+    }
+}
+@media all and (max-width: 585px) {
+    .hdp, .vol {
+        display: none;
+    }
+}
+@media all and (max-width: 576px) {
+    .card_and_apply{
+        text-align: center !important;
+        padding-bottom: 10px;
+    }
+}
+.menuBG{
+    background-color: #D3D3D3 !important;
+}
+
+/* ------------home-------------- */
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.home_div{
+    background: #F5F7F8 0% 0% no-repeat padding-box;
+    padding-top: 130px;
+}
+.home_sub_div{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner_img{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px #DBE3EB6A;
+    border-radius: 8px;
+}
+.banner{
+    margin-left: 10%;
+}
+.get_card{
+    font-size: 25px;
+    color: #435469;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+.get_card span{
+    font-weight: bold;
+    color: #002554;
+}
+.lorem_letter{
+    color: #002554;
+    font-size: 20px;
+    font-weight: 500;
+}
+.apply_btn{
+    width: 28% !important;
+    height: 35px !important;
+}
+.card_all_div{
+    width: 100%;
+    margin-top: 25px;
+}
+.card_div{
+    padding: 0px;
+    cursor: pointer;
+}
+.wallet, .cards, .staking{
+    width: 95%;
+    height: 165px;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px #DBE3EB6A;
+    border-radius: 8px;
+    padding: 20px;
+}
+.cards{
+    margin-left: auto;
+    margin-right: auto;
+}
+.staking{
+    margin-left: auto;
+}
+.card_title{
+    color: #435469;
+    font-size: 16px;
+}
+.wallet_img{
+    float: right;    
+    margin-top: -41px;
+    padding: 5px;
+    background-color: #DBE3EB;
+    border-radius: 4px;
+}
+.wallet_img:hover{
+    background-color: #2DCCD3;
+}
+.wallet_money{
+    font-size: 24px;
+    color: #002554;
+    font-weight: 600;
+}
+.wallet_date{
+    font-size: 14px;
+    color: #435469;
+}
+.chart_div, .operation_div{
+    width: 100%;
+    min-height: 466px;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px #DBE3EB6A;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.operation_div{
+    min-height: 490px;
+}
+@media all and (max-width: 904px) {
+    .wallet_money {
+        font-size: 16px;
+    }
+    .wallet_date{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 576px) {
+    .card_div_tablet{
+        margin-top: 10px;
+    }
+    .wallet, .cards, .staking{
+        width: 100%;
+    }
+}
+@media all and (max-width: 836px) {
+    .get_card{
+        font-size: 16px;
+    }
+    .lorem_letter, .apply_btn{
+        font-size: 12px;
+    }
+}
+/* --------drop down menu customize-------- */
+.dropdown{
+    float: right;
+    margin-right: 15px;
+}
+.btn-success, .btn-success:hover, .btn-check:focus+.btn-success, .btn-success:focus{
+    background-color: #2DCCD3;
+    border-color: #2DCCD3;
+    outline: 0px !important;
+    height: 42px;
+    margin-top: 1px;
+}
+.btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle{
+    background-color: #2DCCD3;
+    border-color: #2DCCD3;
+}
+/* ----------chart------------ */
+.chart_head{
+    float: left;
+    width: 100%;
+    padding: 30px 15px 15px 20px;
+}
+.chart_title{
+    float: left;
+    color: #002554;
+    font-size: 14px;
+    font-weight: 600;
+}
+.chart_title_wallet{
+    float: right;
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
+/* --------------- */
+.operation_div{
+    padding: 23px 23px 90px 20px;
+}
+@media all and (max-width: 482px) {
+    .table_responsive{
+        width: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.show_and_search{
+    padding-bottom: 22px;
+}
+.page_title{
+    color: #002554;
+    font-size: 14px;
+    font-weight: 600;
+}
+.selected_div{
+    width: fit-content;
+}
+.search_input{
+    float: right;
+    margin-top: -26px;
+}
+.show_title{
+    color: #002554;
+    font-size: 16px;
+}
+.select_ele{
+    width: 75px;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    text-align: center;
+}
+.search_input{
+    width: 27%;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    opacity: 1;
+    padding-left: 20px;
+}
+/* ----------pagination customize------- */
+.css-1p5q5e5-MuiStack-root{
+    float: right;
+    margin-top: 35px;
+}

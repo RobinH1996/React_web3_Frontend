@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.891" height="22.891" viewBox="0 0 22.891 22.891">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4228" data-name="Rectangle 4228" width="22.89" height="22.89" transform="translate(0.001 0.001)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="hedpay-footer-logo-etherscan" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+    <g id="etherscan-logo-circle" transform="translate(0.005 0)">
+      <path id="Path_1" d="M24.187,29.8a.973.973,0,0,1,.967-.975h.008l1.614.008a.975.975,0,0,1,.975.975h0v6.112c.179-.055.413-.109.67-.172a.809.809,0,0,0,.624-.787V27.372a.975.975,0,0,1,.975-.975H31.64a.975.975,0,0,1,.975.975v7.04s.405-.164.8-.327a.831.831,0,0,0,.5-.748v-8.4a.975.975,0,0,1,.975-.975h1.622a.975.975,0,0,1,.975.975v6.907a19.312,19.312,0,0,0,3.96-3.711,1.618,1.618,0,0,0,.249-1.52,11.439,11.439,0,1,0-20.722,9.457,1.456,1.456,0,0,0,1.38.717c.3-.023.686-.062,1.138-.117a.81.81,0,0,0,.717-.8L24.187,29.8" transform="translate(-19.455 -18.896)"/>
+      <path id="Path_2" d="M24.795,41.044a11.449,11.449,0,0,0,18.18-9.262c0-.265-.016-.522-.031-.78-4.187,6.237-11.9,9.153-18.149,10.042" transform="translate(-20.094 -20.344)"/>
+    </g>
+  </g>
+</svg>

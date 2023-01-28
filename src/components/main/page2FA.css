@@ -1,0 +1,182 @@
+.page_2fa{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page_2fa_lines{
+    margin-left: auto;
+    margin-right: auto;
+}
+.lines{
+    padding: 0px;
+    display: flex;
+}
+.first_line, .second_line, .third_line{
+    border: 2px solid #DBE3EB80;
+    height: 0px;
+    background-color: #DBE3EB80;
+    padding: 0px;
+    margin-left: auto;
+    width: 100%;
+}
+.line_active{
+    background-color: #2DCCD3;
+}
+.line_dot{
+    width: 14px;
+    height: 14px; 
+    border-radius: 50%;
+    margin-top: -4.5px !important;
+    background-color: #DBE3EB80;
+}
+.active_dot{
+    background-color: #2DCCD3;
+}
+.line_title{
+    position: relative;
+    color: #BAC4CE;
+    font-size: 18px;
+    font-weight: 600;
+}
+.line_title_active{
+    color: #08253E;
+}
+.page_2fa_content{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 45px;
+}
+.step_num{
+    font-size: 16px;
+    color: #00263F;
+    font-weight: 500;
+}
+.step_title{
+    font-size: 18px;
+    color: #2DCCD3;
+    font-weight: 600;
+}
+.next_step{
+    width: 50%;
+    margin-top: 110px;
+}
+.step_two_content{
+    width: 10 0%;
+    text-align: center;
+    margin-top: 45px;
+}
+.QR_code_input{
+    width: 80%;
+    background: #DBE3EB 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.QR_copy{
+    width: 25%;
+    height: 38px;
+    margin-left: 30px;
+}
+.backup_key_main{
+    width: 80%;
+    padding: 35px 80px;
+    text-align: center;
+    background: #f8f9fb 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 3px #00000029;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backup_bottom_letter{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.google_auth_input{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+/* -------QR code ---------- */
+.sc-bwzfXH{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media all and (max-width: 1282px) {
+    .mobile_qr{
+        left: 30% !important;
+    }
+}
+@media all and (max-width: 985px) {
+    .mobile_qr{
+        left: 30% !important;
+    }
+    .page_2fa_lines{
+        display: none;
+    }
+}
+@media all and (max-width: 664px) {
+    .page_2fa_content{
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px) {
+    .mobile_2fa_img{
+        display: flex;
+    }
+    .mobile_2fa_google, .mobile_2fa_apple{
+        width: 50%;
+    }
+    .mobile_2fa_one{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .mobile_google_auth_title{
+        font-size: 13px;
+    }
+    .mobile_qr_code{
+        font-size: 10px;
+        text-align: center !important;
+    }
+    .mobile_qr_copy{
+        display: block !important;
+    }
+    .mobile_qr_code_input, .backup_key_main, .mobile_backup_copy_btn{
+        width: 100% !important;
+    }
+    .backup_key_main{
+        padding: 20px;
+    }
+    .QR_copy, .mobile_backup_key{
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .QR_code_input{
+        width: 100%;
+        background-color: #fff;
+    }
+    .mobile_qr_next_div{
+        float: none;
+    }
+    .mobile_qr_back{
+        float: none !important;
+    }
+    .mobile_qr_next{
+        width: 75%;
+        float: none !important;
+        position: relative;
+        top: -105px;
+    }
+    .google_auth_input{
+        width: 80%;
+    }
+    .mobile_google_auth_title{
+        font-size: 12px !important;
+    }
+}

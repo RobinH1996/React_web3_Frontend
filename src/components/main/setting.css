@@ -1,0 +1,23 @@
+.setting_right_div{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    padding-bottom: 150px;
+}
+.mobile_version_setting{
+    display: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media all and (max-width: 980px) {
+    .mobile_version_setting{
+        display: block;
+    }
+    .web_version_setting{
+        display: none;
+    }
+}

@@ -1,0 +1,588 @@
+.ssu3_password {    
+    width: calc(100% - 205px);
+    height: 78px;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    left: 89px;
+    border-width: 0px;
+    background: rgba(0,0,0,0);
+}
+
+.ssu3_eye {
+    position: absolute;
+    top: 22px;;
+    right: 50px;
+    width: 30px;
+    height: 24.55px;
+    cursor: pointer;
+}
+
+.input_left_icon {
+    position: absolute;
+    top: 28px;
+    left: 39px;
+    width: 30px;
+    height: 24.55px;
+}
+
+.ssu3_body {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    margin: 96px auto 0px;
+}
+
+/***************/
+
+.ssu_container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px 0px 1px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.ssu_txt1 {
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.ssu2_modal1_input {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 50px auto 0px;
+}
+
+.ssu2_modal3_selectBox {
+    width: 100%!important;
+    height: 80px!important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;  
+    border: 1px solid rgba(0, 0, 0, 0.2)!important;
+    position: relative;
+}
+
+.ssu2_modal3_select {
+    width: calc(100% - 125px);
+    height: 78px;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    left: 89px;
+    border-width: 0px;
+    background: rgba(0,0,0,0);
+}
+
+.ssu_bottom {    
+    width: 80%;
+    max-width: 1039px;
+    height: auto;
+    margin: 1px auto;
+    padding-top: 1px;
+}
+
+.ssu_hr {
+    margin: 120px 0px 0px;
+}
+
+
+.ssu2_modal1_button1 {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #009CDE;    
+    color: white;
+    font-size: 22px;
+    font-weight: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-width: 0px;
+}
+
+.ssu2_modal1_button2 {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #333333;    
+    color: white;
+    font-size: 22px;
+    font-weight: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-width: 0px;
+}
+
+.input_left_icon {
+    position: absolute;
+    top: 28px;
+    left: 39px;
+    width: 30px;
+    height: 24.55px;
+}
+
+
+@media all and (max-width: 1280px) {
+    .ssu_txt1 {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    
+    .ssu_txt1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .ssu2_modal1_text1 {    
+        font-size: 48px;
+        line-height: 54px;
+    }
+    
+    .ssu2_modal1_input {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .ssu2_modal1_button1 {
+        width: 80%!important;
+        min-width: 200px!important;
+        margin: 50px auto 0px!important;
+    }
+
+    .ssu2_modal1_button2 {
+        width: 80%!important;
+        min-width: 200px!important;
+        margin: 10px auto 0px!important;
+    }
+}
+.login{
+    margin-top: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.small_logo{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome{
+    font-size: 24px;
+    color: #00263F;
+    font-weight: bold;
+}
+.signinMessage, .loginTitle{
+    font-size: 16px;
+    color: #2DCCD3;
+    font-weight: 500;
+}
+.loginTitle{
+    text-align: left;
+    margin-left: 26px;
+}
+.emailInput, .passwordInput{
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding-left: 50px;
+    outline-width: 0;
+}
+.forgot{
+    text-align: right;
+    margin-right: 11px;
+    font-size: 14;
+    font-weight: 400;
+    cursor: pointer;
+}
+.singInButton, .nextStep{
+    width: 100%;
+    height: 50px;
+    background: #DBE3EB 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    border: 0px;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+.userIcon{
+    width: 14px;
+    float: left;
+    position: relative;
+    top: 26px;
+    left: 21px;
+}
+.signUp{
+    max-width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+.signUpDash{
+    background: #FAFCFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 8.5px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.signUpDash:hover{
+    box-shadow: 3px 3px 6px #DBE3EB6A;
+    transform: scale(1.05);
+}
+.accOption{
+    color: #08253E;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 700;
+}
+.allUSD{
+    color: #2DCCD3;
+    font-size: 18px;
+    text-align: left;
+}
+.allUSDDIV{
+    text-align: left;
+    padding-top: 65px;
+}
+.number, .limited{
+    color: #002554;
+    font-size: 14px;
+    font-weight: 600;
+}
+.number{
+    border-bottom: 1px solid #E6EDF4;
+}
+.non_border_bottom{
+    border-bottom: 0px;
+}
+.limited{
+    font-weight: 800;
+}
+.borderLine{
+    width: 50%;
+    border: 1px solid #2DCCD3;
+    background-color: #2DCCD3;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nextStep{
+    width: 60%;
+    height: 40px;
+    background: #2DCCD3 0% 0% no-repeat padding-box;
+}
+.nextStep a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.limitedSignupTitle{
+    text-align: center;
+    color: #08253E;
+    font-size: 24px;
+    font-weight: 700;
+}
+.limitedSignupDiv, .limitedSignupTermDiv{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.limitedProcessBar{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.limitedLeftDot, .limitedRightDot{
+    width: 14px;
+    height: 14px;
+    background: #2DCCD3 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+}
+.limitedBarActive, .limitedBar{
+    width: 50%;
+    height: 3px;
+    background-color: #2DCCD3;
+    margin-top: 5px;
+}
+.limitedBar{
+    background-color: #DBE3EB80;
+}
+.limitedRightDot{
+    background: #EDF1F5 0% 0% no-repeat padding-box;
+}
+.inputDetails{
+    margin-top: 38px;
+}
+.inputTitle{
+    color: #002554;
+    font-size: 16px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+.inputStyle{
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    opacity: 1;
+    padding-left: 26px;
+}
+.goBack{
+    color:#002554;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.unactiveInputTitle{
+    color: #DBE3EB;
+}
+.createAccount{
+    width: 70%;
+    height: 40px;
+    float: right;
+    margin-top: 129px;
+}
+.css-qc6sy-singleValue{
+    padding-left: 20px !important;
+}
+#react-select-2-placeholder, .css-14el2xx-placeholder{
+    margin-left: 20px !important;
+    text-align: left;
+}
+.limitedSignupTermDiv{
+    padding: 34px 26px;
+    background: #F5F7FA 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}
+.changes{
+    font-size: 14px;
+    color: #002554;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.changesWord{
+    font-weight: 400;
+}
+.checkBox{
+    position: relative;
+    top: 2px;
+}
+.acceptLetter{
+    margin-left: 6px;
+}
+.verify{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px 50px 10px 50px;
+}
+.warning{
+    width: 33px;
+}
+.verifyTitle{
+    color: #2DCCD3;
+    font-size: 24px;
+    font-weight: 600;
+}
+.verifyWord{
+    color: #002554;
+    font-size: 16px;
+}
+.verifyBody{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.verifyUnder{
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.verifyUnder li{
+    list-style: none;
+    padding: 0px 10px;
+    color: #2DCCD3;
+    cursor: pointer;
+}
+.note{
+    border-left: 1px solid #2DCCD3;
+}
+.greetWord{
+    color: #002554;
+    font-size: 18px;
+    font-weight: 500;
+}
+.standardSignUpBar{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.standardSignupTitleLeft{
+    width: fit-content;
+    margin-left: 10%;
+}
+.standardSignupTitleRight{
+    margin-left: auto;
+    margin-right: 10%;
+}
+.standardCreateButton{
+    width: 30% !important;
+    margin-top: 40px;
+}
+/* --------pro sign up --------------- */
+.proSignNote{
+    max-width: 60%;
+}
+.goBackPro{
+    color:#002554;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* -------forgot passowrd-------- */
+.forgot_password{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.forgot_buttons{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.forgot_back_btn{
+    float: left;
+    width: 40%;
+}
+.forgot_next_btn{
+    float: right;
+    width: 40%;
+}
+.forgot_msg{
+    color: #2DCCD3;
+    font-size: 14px;
+    float: left;
+    margin-top: 21px;
+}
+.error_chance{
+    color: #000A2E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.try_again{
+    color: #0A3BEA;
+    cursor: pointer;
+}
+.employment{
+    position: relative !important;
+    z-index: 10 !important;
+}
+.mobile_signUp_dash{
+    display: none;
+    padding-bottom: 50px;
+}
+.mobile_limit_go{
+    display: none;
+    text-align: center;
+    color: #002554;
+    font-size: 14px;
+    margin-top: 100px;
+    font-weight: 600;
+    text-decoration: none;
+}
+@media all and (max-width: 1113px) {
+    .mobile_signUp_dash, .mobile_limit_go{
+        display: block;
+    }
+    .web_signUp_dash, .web_limit_go, .limitedProcessBar{
+        display: none;
+    }
+    .limitedSignupDiv, .limitedSignupTermDiv{
+        max-width: 90% !important;
+    }
+    .mobile_limit_title{
+        margin-top: 25px !important;
+    }
+    .mobile_limit_create_account{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .inputDetails{
+        width: 100%;
+    }
+}
+@media all and (max-width: 900px) {
+    .verify{
+        width: 70%;
+        padding: 0px;
+    }
+    .verifyBody{
+        width: 70%;
+    }
+    .proSignNote{
+        max-width: 70%;
+    }
+}
+@media all and (max-width: 600px) {
+    .verify{
+        width: 90%;
+        padding: 0px;
+    }
+    .verifyBody{
+        width: 90%;
+    }
+    .proSignNote{
+        max-width: 90%;
+    }
+    .inputDetails{
+        width: 100%;
+    }
+}
+.mobile_upload_title{
+    display: none;
+}
+@media all and (max-width: 768px){
+    .pro_sign_detail{
+        display: none;
+    }
+    .mobile_upload_title{
+        display: block;
+        margin-top: 45px !important;
+    }
+    .mobile_your_detail{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

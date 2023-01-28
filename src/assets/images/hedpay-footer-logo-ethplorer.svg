@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.891" height="22.891" viewBox="0 0 22.891 22.891">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4229" data-name="Rectangle 4229" width="22.89" height="22.89" transform="translate(-0.001 0.001)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="hedpay-footer-logo-ethplorer" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+    <path id="_6c4011bd34a5c4564973bea662033b56" data-name="6c4011bd34a5c4564973bea662033b56" d="M35.291,31.133,28.637,20.752a1.464,1.464,0,0,0-1.331-.8,2.033,2.033,0,0,0-1.331.532L19.322,30.6a2.274,2.274,0,0,0,0,1.863l6.654,9.582a1.464,1.464,0,0,0,1.331.8,2.033,2.033,0,0,0,1.331-.532L35.291,33A2.274,2.274,0,0,0,35.291,31.133Zm-7.985,7.187L22.516,31.4l4.525-7.187,4.791,7.453Z" transform="translate(-15.863 -19.952)" fill="#020202"/>
+  </g>
+</svg>

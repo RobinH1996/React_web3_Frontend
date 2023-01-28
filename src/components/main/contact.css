@@ -1,0 +1,89 @@
+.contact_div{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_add_btn{
+    width: 20%;
+    float: right;
+}
+.add_contact_div{
+    float: right;
+    width: 100%;
+}
+.contact_step_line{
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.goBack{
+    cursor: pointer;
+}
+.go_message{
+    margin-top: 42px;
+}
+.add_more{
+    text-align: right;
+    margin-top: 22px;
+    cursor: pointer;
+    color: #DBE3EB;
+    text-decoration-line: underline;
+}
+.skip_step{
+    text-align: center;
+    color: #DBE3EB;
+    font-size: 16px;
+    margin-top: 145px;
+    cursor: pointer;
+}
+.skip_this_step{
+    font-size: 16px;
+    color: #DBE3EB;
+    cursor: pointer;
+    margin-top: 10px !important;
+}
+.css-1s2u09g-control{
+    position: relative !important;
+    z-index: 2;
+}
+.hide_div{
+    display: none !important;
+}
+.width100{
+    width: 100%;
+}
+.width47{
+    width: 47.5%;
+}
+.mobile_version_contact{
+    display: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media all and (max-width: 768px) {
+    .mobile_version_contact{
+        display: block;
+    }
+    .web_version_contact{
+        display: none;
+    }
+}
+@media all and (max-width: 432px) {
+    .mobile_version_title{
+        font-size: 12px !important;
+    }
+}
+@media all and (max-width: 355px) {
+    .mobile_version_title{
+        font-size: 11px !important;
+    }
+}
+@media all and (max-width: 1472px) {
+    .loginTitle{
+        font-size: 12px !important;
+    }
+}
+.flag-dropdown{
+    z-index: 4 !important;
+}

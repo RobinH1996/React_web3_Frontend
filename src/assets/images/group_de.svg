@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4232" data-name="Rectangle 4232" width="23" height="23" rx="4" transform="translate(950 3616)" fill="#002554"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_4231" data-name="Rectangle 4231" width="23" height="23" transform="translate(0 0.023)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_2" data-name="Groupe de masques 2" transform="translate(-950 -3616)" clip-path="url(#clip-path)">
+    <g id="Groupe_7817" data-name="Groupe 7817" transform="translate(950 3615.996)">
+      <g id="Groupe_7816" data-name="Groupe 7816" transform="translate(0 -0.02)" clip-path="url(#clip-path-2)">
+        <path id="Tracé_2616" data-name="Tracé 2616" d="M10.408,14.8a1.5,1.5,0,1,0-1.5,1.5,1.44,1.44,0,0,0,1.5-1.5" transform="translate(-0.853 -1.513)" fill="#00263f"/>
+        <path id="Tracé_2617" data-name="Tracé 2617" d="M22.384,0H.619A.6.6,0,0,0,0,.619V22.384A.6.6,0,0,0,.619,23H22.384A.6.6,0,0,0,23,22.384V.619A.6.6,0,0,0,22.384,0M19.995,13.979v.531c0,3.274-3.893,5.928-8.67,5.928s-8.67-2.654-8.67-5.928a1.948,1.948,0,0,1,.088-.708,2.345,2.345,0,0,1-.973-2.566A2.1,2.1,0,0,1,3.362,9.644a2.265,2.265,0,0,1,2.123.531,11.357,11.357,0,0,1,5.4-1.5l1.15-5.131a.943.943,0,0,1,1.15-.708l2.654.531a1.427,1.427,0,0,1,2.035-.354,1.339,1.339,0,0,1,.619,1.239,1.491,1.491,0,0,1-1.5,1.5,1.381,1.381,0,0,1-1.416-1.327l-2.477-.531L12.032,8.759a10.584,10.584,0,0,1,5.485,1.681,2.514,2.514,0,0,1,2.123-.708A2.363,2.363,0,0,1,21.5,11.59a2.768,2.768,0,0,1-1.5,2.389" transform="translate(0 0.02)" fill="#00263f"/>
+        <path id="Tracé_2618" data-name="Tracé 2618" d="M16.1,18.9a.325.325,0,0,0-.265.088,6.983,6.983,0,0,1-6.724,0,.466.466,0,0,0-.619.177c0,.088-.088.088-.088.177a.487.487,0,0,0,.265.442,8.074,8.074,0,0,0,7.52,0,.392.392,0,0,0,.177-.619A.235.235,0,0,0,16.1,18.9" transform="translate(-0.968 -2.158)" fill="#00263f"/>
+        <path id="Tracé_2619" data-name="Tracé 2619" d="M16.7,13.3a1.5,1.5,0,1,1-1.5,1.5,1.5,1.5,0,0,1,1.5-1.5" transform="translate(-1.752 -1.513)" fill="#00263f"/>
+      </g>
+    </g>
+  </g>
+</svg>

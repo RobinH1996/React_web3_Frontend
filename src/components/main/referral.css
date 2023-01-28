@@ -1,0 +1,32 @@
+.referral_div, .referral_link{
+    width: 91%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.referral_link_div{
+    background-color: #F5F7FA;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+.playing_div{
+    padding-top: 62px;
+}
+.accepted_referral{
+    color: #2DCCD3;
+    font-weight: 500;
+}
+.mobile_last_invitation{
+    display: none;
+}
+@media all and (max-width: 768px) {
+    .mobile_referral{
+        width: 100% !important;
+    }
+    .web_last_invitation{
+        display: none;
+    }
+    .mobile_last_invitation{
+        display: block;
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,179 @@
+.profile_left_div{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 170px 20px 100px 67px;
+}
+.left_shadow{
+    box-shadow: 0px 4px 12px #00000029;
+}
+.left_div_title{
+    font-size: 16px;
+    color:#002554;
+    font-weight: 600;
+}
+.left_bar_ele{
+    display: flex;
+    margin-top: 45px;
+}
+.left_bar_img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #86E8EB;
+}
+.left_bar_text{
+    margin-top: 4px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #002554;
+    cursor: pointer;
+}
+.selelected_under_bar{
+    border-bottom: 3px solid #86E8EB;
+}
+.unactive_img{
+    background-color: #DBE3EB;
+}
+.not_completed{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #F02D3A;
+}
+.profile_right_div{
+    padding: 170px 70px 100px 122px;
+}
+.right_div_head{
+    width: 100%;
+    float: left;
+}
+.saved_bank_title{
+    font-size: 18px;
+    color: #002554;
+    font-weight: 600;
+}
+.add_account_btn{
+    width: 15%;
+    min-width: 100px;
+    float: right;
+    margin-top: -55px;
+}
+@media all and (max-width: 497px) {
+    .saved_bank_title {
+        font-size: 14px;
+    }
+}
+.add_div_all{
+    width: 100%;
+    display: flex;
+}
+.add_left_div{
+    width: 40%;
+    /* margin-left: -10%; */
+}
+.add_right_div{
+    width: 40%;
+    margin-left: 15%;
+}
+.save_account_btn{
+    width: 45%;
+    float: right;
+    margin-top: 30px;
+}
+.selected_title{
+    width: 60% !important;
+}
+.selected_id_doc{
+    width: 100% !important;
+    margin-top: 9px;
+    margin-right: 0px !important;
+}
+.upLoad_id_img{
+    float: left;
+    width: 100%;
+    position: relative;
+    top: 22px;
+    z-index: 1;
+}
+.my_plan_ele{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #E2E2E2;
+}
+.my_plan_ele p{
+    color: #002554;
+    font-size: 16px;
+    font-weight: 400;
+}
+.change_plan_btn{
+    margin-top: 71px;
+    background-color: #fff;
+    color: #002554;
+    border: 1px solid #002554;
+}
+.current_plan{
+    background-color: #c3c0c029;
+}
+.go_back_plan{
+    color: #002554;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.css-b62m3t-container{
+    position: relative;
+    z-index: 3;
+}
+.mobile_version_profile{
+    display: none;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+@media all and (max-width: 980px) {
+    .mobile_version_profile{
+        display: block;
+    }
+    .web_version_profile{
+        display: none;
+    }
+}
+.mobile_left_bar{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.mobile_left_bar_ele{
+    padding: 10px 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+}
+.mobile_red_letter{
+    margin-left: 50px;
+    margin-top: 11px;
+    font-size: 10px;
+    color: red;
+}
+.mobile_account_title{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2DCCD3;
+}
+.mobile_linited_title{
+    color: #2DCCD3;
+    font-size: 24px;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #2DCCD3;
+}
+.mobile_account_div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #DBE3EB;
+}
+.mobile_account_white_div{
+    background-color: #FFFFFF;
+}

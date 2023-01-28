@@ -1,0 +1,14 @@
+.staking_pairs{
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px #00000029;
+    padding: 25px 0px;
+}
+.staking_pairs_title{
+    border-bottom: 2px solid #EAEAEA;
+    padding: 0px 30px 20px 30px;
+    margin-bottom: 0px;
+}
+.border_none, .border_none td, .border_none tr{
+    border-style: hidden !important;
+}

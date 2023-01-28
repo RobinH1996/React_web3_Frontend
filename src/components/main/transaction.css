@@ -1,0 +1,116 @@
+.transaction_div{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add_funds_btn{
+    font-size: 16px;
+    text-align: center;
+    font: normal normal medium 16px/19px Roboto;
+    color: #002554;
+    background: #F5F7FA 0% 0% no-repeat padding-box;
+    padding: 2% 5%;
+    border: 0px;
+    border-radius: 5px;
+}
+.active_add_funds_btn{
+    border: 1px solid #2DCCD3;
+}
+.add_funds_btn:focus {
+    outline: 1px solid #2DCCD3 !important;
+    border: 1px solid #2DCCD3 !important;
+}
+.transfer_btn{
+    margin-left: 24px;
+}
+.send_submit_btn{
+    width: 100%;
+    height: 38px;
+    background: #2DCCD3 ;
+    float: right;
+    margin-top: 28px;
+    border: 0px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.funds_letter{
+    color: #002554;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.card_icon{
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    left: 85%;
+}
+.message_area{
+    width: 100%;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 18px 10px;
+}
+.message_area:focus{
+    outline: 1px solid #E2E2E2;
+}
+.label-className {
+    width: 100% !important;
+    height: 38px;
+}
+.input-className {
+    width: 100%;
+    height: 38px;
+    padding: 8.6px 8.6px 8.6px 26px !important;
+    border-radius: 5px !important;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+}
+.transfer_top{
+    margin-top: 298px !important;
+}
+@media all and (max-width: 767px) {
+    .transfer_top{
+        margin-top: 40px !important;
+    }
+}
+.transfer_confirm{
+    text-align: center;
+}
+.transfer_confirm_div1{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.transfer_confirm_div2{
+    text-align: left;
+    display: flex;
+    border-bottom: 1px solid #EBF0F5;
+    padding: 10px 0px;
+}
+.transfer_confirm_div2_borderTop{
+    border-top: 1px solid #EBF0F5;
+}
+.transfer_confirm_div3, .transfer_confirm_div4{
+    width: 50%;
+    overflow-wrap: anywhere;
+}
+.change_bank{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #2DCCD3;
+    font-weight: 600;
+    cursor: pointer;
+}
+.modal_wallet_address_title{
+    font-size: 16px;
+    color: #002554;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+}

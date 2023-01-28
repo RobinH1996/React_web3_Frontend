@@ -1,0 +1,501 @@
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../assets/fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),  url('../assets/fonts/AvenirLTStd-Black.woff') format('woff'), url('../assets/fonts/AvenirLTStd-Black.ttf')  format('truetype'), url('../assets/fonts/AvenirLTStd-Black.svg#Avenir') format('svg');
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2DCCD3; 
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #2DCCD3; 
+}
+html{
+    --antd-wave-shadow-color: #2DCCD3 !important;
+}
+::selection{
+    background: #2DCCD3 !important;
+}
+button:focus {
+    outline: none !important;
+    /* border: none !important; */
+}
+img{
+    cursor: pointer;
+}
+input{
+    outline-width: 0px;
+}
+input[type=checkbox]:checked:after{
+    background-color: #2DCCD3 !important;
+}
+@media all and (max-width: 476px) {
+    .apple {
+        margin-left: 0px !important;
+    }
+}
+.footer_padding{
+    padding-bottom: 100px;
+}
+.activeButton{
+    background: #2DCCD3 0% 0% no-repeat padding-box !important;
+    cursor: pointer !important;
+}
+.outer_container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.main_container {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #2DCCD3;
+}
+
+@media all and (max-width: 768px) {
+    .header_logo {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .header_logo {
+        margin-top: 14px !important;
+        margin-left: 22px !important;
+        width: 115px !important;
+    }
+}
+@media all and (max-width: 1189px) {
+    .card_icon {
+        left: 75% !important;
+    }
+}
+@media all and (max-width: 767px) {
+    .card_icon {
+        left: 90% !important;
+    }
+}
+@media all and (max-width: 600px) {
+    .card_icon {
+        left: 83% !important;
+    }
+}
+@media all and (max-width: 380px) {
+    .signinMessage, .loginTitle {
+        font-size: 14px !important;
+    }
+}
+@media all and (max-width: 767px) {
+    .send_submit_btn {
+        width: 100% !important;
+    }
+}
+@media all and (max-width: 823px) {
+    .footerLogo {
+        width: 120px !important;
+    }
+}
+@media all and (max-width: 576px) {
+    .mobile_under_menu {
+        width: 100% !important;
+    }
+}
+@media all and (max-width: 451px) {
+    .mobile_google_apple {
+        display: flex;
+    }
+    .mobile_store_text, .fMenuUpHead{
+        text-align: center;
+    }
+    .mobile_google, .mobile_apple{
+        width: 50%;
+    }
+}
+.mobile_under_img {
+    width: 7%;
+}
+
+/**********************************************
+**************** HEADER CSS *******************
+**********************************************/
+
+.header_container {
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #2DCCD3;
+    border-bottom: 2px solid #002554;
+}
+
+/*********** LOG OUT VIEW ***********/
+
+.header_logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 63px;
+    width: 173px;
+    height: 32.32px;
+    cursor: pointer;
+}
+
+.header_nav {
+    height: 45px;
+    border-radius: 100px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header_nav_clicked {
+    background: #009CDE;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tablet_btn {
+    display: none;
+    margin-top: -10px;
+}
+.navHead{
+    background-color: #2DCCD3;
+    width: 100%;
+    float: left;
+}
+.navHeadUnder{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #F5F7FA;
+}
+
+@media all and (max-width: 768px) {
+    .header_nav, .navList {
+        display: none;
+    }
+    .nonHeader{
+        display: block !important;
+    }
+    .tablet_btn {
+        display: block;
+    }
+}
+@media all and (max-width: 921px) {
+    .mobile_btn {
+        float: right;
+        margin-top: -48px;
+    }
+}
+@media all and (max-width: 399px) {
+    .mobile_btn {
+        float: right !important;
+        margin-top: -48px !important;
+    }
+}
+@media all and (max-width: 576px) {
+    .mobile_btn {
+        float: left;
+        margin-top: 0px;
+    }
+    .mobile_policies_div, .mobile_support_div {
+        margin-top: 20px;
+    }
+    .mobile_logo_div{
+        text-align: center;
+    }
+}
+.hdp{
+    width: 172px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+    left: 64px;
+    float: left;
+    display: flex;
+}
+.vol{
+    width: 140px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+    left: 88px;
+    float: left;
+}
+.signButton{
+    float: right;
+}
+#signUp{
+    color: #002554;
+    font-size: 16px;
+    margin-right: 64px;
+    margin-top: 10px;
+}
+#logIn{
+    color: #fff;
+    font-size: 16px;
+    margin-right: 48px;
+    margin-top: 10px;
+}
+.signUpBtn{
+    color: #002554;
+    font-size: 16px;
+    margin-right: 32px;
+    padding: 10px 32px;
+    border-radius: 0px;
+}
+.logInBtn{
+    color: #002554;
+    font-size: 16px;
+    padding: 10px 32px;
+    border-radius: 0px;
+}
+.logInBtn:hover, .signUpBtn:hover, .open_signBtn{
+    background-color: #002554;
+    color: #fff;
+}
+.navList{
+    float: right;
+    margin-right: 64px;
+    margin-top: 20px;
+}
+.navList ul{
+    display: flex;
+}
+.navList ul li{
+    list-style: none;
+    color: #002554;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.liMRight{
+    padding: 10px 20px;
+}
+.liMRight:hover{
+    cursor: pointer;
+    background-color: #2DCCD3;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    min-height: 560px;
+    position: relative;
+    border-top: 3.5px solid #002554;
+}
+.footerUp{
+    min-height: 500px;
+    background-color: #F7F8F9;
+    padding: 45px 64px 36px 64px;
+}
+.footerDown{
+    width: 100%;
+    background-color: #00263F;
+    padding: 22px 64px;
+    float: left;
+}
+.apple{
+    margin-left: 35px;
+}
+.fMenuUpHead{
+    color: #00263F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fMenuUpLeft p, .fMenuUpRight p{
+    color: #22222D;
+    cursor: pointer;
+    font-size: 14px;
+}
+.fMenuUpRight{
+    margin-left: auto;
+}
+.fMenuDown{
+    margin-top: 60px;
+}
+.footerLogo{
+    width: 217px;
+    cursor: pointer;
+}
+.fPolicyUpRight{
+    margin-left: 94px;
+}
+.fPolicyUpLeftP{
+    max-width: 368px;
+    color: #696B6C;
+}
+.support{
+    margin-left: 155px;
+}
+.footerDownLeft, .footerDownRight{
+    color: #CCCCCC;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.footerDownLeft{
+    float: left;
+    margin-top: 12px;
+}
+.footerDownRight{
+    float: right;
+}
+.sendBtn{
+    background-color: #FFA300;
+    border-radius: 4px;
+    border: 0px;
+    width: 48px;
+    height: 48px;
+}
+.sendBtn img{
+    width: 20px;
+}
+.sendEmail{
+    width: 80%;
+    height: 48px; 
+    border-radius: 4px; 
+    float: left;
+    border: 0px;
+    padding-left: 16px;;
+    outline-width: 0;
+}
+.moveLeft{
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.iconUp{
+    margin-top: 20px;
+}
+.iconDown{
+    margin-top: 25px;
+}
+.login{
+    max-width: 400px;
+}
+
+
+/* ---------------Sign Up Dash Button Hover Effect-------------- */
+.nextLink span{
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+.nextLink span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -1px;
+    right: -20px;
+}
+.nextLink:hover span {
+    padding-right: 25px;
+}
+.nextLink:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* -------file upload style----------- */
+.file-icon p{
+    font-size: 16px !important;
+}
+/* ---------select Currency---------------- */
+.md-item-template {
+    padding: 10px 10px 10px 55px;
+    position: relative;
+    text-align: left;
+    line-height: normal;
+}
+
+.md-item-template-img {
+    position: absolute;
+    left: 0;
+    width: 45px;
+    height: 45px;
+}
+
+.md-item-template-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.md-item-template-artist {
+    font-size: 14px;
+    opacity: .8;
+}
+
+.mbsc-scroller-wheel-item-2d .md-item-template {
+    transform: scale(1.1);
+}
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg{
+    width: 30px !important;
+    height: 18px !important;
+    margin-top: -1px !important;
+    border-radius: 0px !important;
+}
+/* ------currency select------- */
+.currencySelectObj{
+    width: 100%;
+    height: 38px;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 0px;
+}
+hr.dashed {
+    border-top: 3px dashed #bbb !important;
+}
+/* ----------chat bot------------ */
+.rsc-submit-button{
+    fill: #00263F !important;
+}
+.sc-jrcTuL{
+    height: 70vh !important;
+    overflow: auto !important;
+}
+@media all and (max-width: 569px) {
+    .sc-jrcTuL{
+        width: 70vw !important;
+    }
+}
+.rsc-header-title{
+    color: #fff !important;
+    background-image: url(../assets/images/chat_logo.png);
+    background-size: 35px 26px;
+    background-repeat: no-repeat;
+    padding-left: 48px;
+}
+.dropdown-toggle{
+    border: none !important;
+    outline: none !important;
+}
+.dropdown-toggle{
+    box-shadow:none !important;
+}

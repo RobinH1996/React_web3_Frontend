@@ -1,0 +1,106 @@
+.cards_div{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.card_input, .card_summary_div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_input{
+    width: 70%;
+}
+.card_btns{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lock_open{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+}
+.ellipsis{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 10px 5px;
+}
+@media all and (max-width: 768px) {
+    .mobile_card1 {
+        margin-top: 10px !important;
+        font-size: 16px !important;
+    }
+    .mobile_card3{
+        margin-top: 20px !important;
+        font-size: 14px !important;
+    }
+    .mobile_card_img1{
+        margin-top: 0px;
+    }
+    .mobile_card_img{
+        width: 190px !important;
+    }
+}
+@media all and (max-width: 490px) {
+    .card_btns{
+        display: block;
+        text-align: center;
+    }
+    .mobile_add_funds{
+        margin-top: 10px !important;
+    }
+}
+@media all and (max-width: 448px) {
+    .mobile_card_img{
+        width: 130px !important;
+    }
+}
+@media all and (max-width: 423px) {
+    .mobile_card0{
+        font-size: 13px !important;
+    }
+    .mobile_card1, .mobile_card2, .mobile_card4, .mobile_card5, .mobile_card4, .mobile_card6 {
+        font-size: 11px !important;
+    }
+    .mobile_card4{
+        margin-top: -10px !important;
+    }
+    .mobile_card2{
+        margin-top: -10px !important;
+    }
+}
+@media all and (max-width: 768px) {
+    .card_summary_div{
+        margin-top: 50px !important;
+    }
+}
+@media all and (max-width: 889px) {
+    .mobile_card1{
+        font-size: 18px !important;
+    }
+    .mobile_card4, .mobile_card2{
+        font-size: 14px;
+    }
+}
+.card_img .ui.avatar.image{
+    width: 34px !important;
+    height: 54px !important;
+    max-height: none !important;
+}
+.card_img .item .text{
+    position: relative;
+    top: 17px;
+    font-size: 16px;
+    color: #00253E;
+    font-weight: 700;
+}
+.card_img .divider .ui.avatar.image{
+    display: none;
+}

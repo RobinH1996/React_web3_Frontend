@@ -1,1 +1,1 @@
-# React_web3_Frontend
+# hedpay_react_frontend
